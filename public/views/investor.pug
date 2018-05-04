@@ -1,0 +1,37 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+              .container-fluid
+                .navbar-header
+                  button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.navbar-brand(href='/') Monitr
+                #myNavbar.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                    li.active
+                      a(href='/') #{data.nav1[lc]}
+    .row.div_investor
+      .col-md-12
+        p.text-center
+          .container.div_investor_text
+            p.p_investor 
+              span.span_review Monitr 
+              | #{data.inv1[lc]}
+              br
+              | #{data.inv2[lc]}
+              br
+              | #{data.inv3[lc]}
+              br
+              | #{data.inv4[lc]}
+              br
+              | #{data.inv5[lc]} 
+              br
+              | #{data.inv6[lc]}
+            br
+            br
+            p.text-center
+              a(href='/investorform')
+                button.btn.btn-primary.btn-lg #{data.inv7[lc]}

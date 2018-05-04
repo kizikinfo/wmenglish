@@ -1,0 +1,173 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+          .container-fluid
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='/') Monitr
+            #myNavbar.collapse.navbar-collapse
+              ul.nav.navbar-nav
+                li.active
+                  a(href='#main') #{data.nav1[lc]}
+                li
+                  a(href='#about') #{data.nav2[lc]}
+                li
+                  a(href='#advantage') #{data.nav3[lc]}
+                li
+                  a(href='#review') #{data.nav4[lc]}
+                li
+                  a(href='#price') #{data.nav5[lc]} 
+    #main
+      .container
+        .row
+          .col-md-8
+            p.text-center
+              - var imgsrc=data.main1[lc]
+              img#mainimg.img-rounded.img-responsive(src=imgsrc, alt='Real estate, car or any property website')
+          .col-md-4
+            p#maintext #{data.main2[lc]}
+    #about.container
+      .row
+        .col-md-12
+          h1.text-center #{data.nav2[lc]}
+      .row
+        .col-md-7
+          .embed-responsive.embed-responsive-16by9(align='center')
+            video.embed-responsive-item(controls='')
+              - var vsrc=data.main3[lc]
+              source(src=vsrc, type='video/mp4')
+        .col-md-5.about_col_md_5
+          ul
+            li
+              p.li_about #{data.main4.a[lc]}
+            li
+              p.li_about #{data.main4.b[lc]}
+            li
+              p.li_about #{data.main4.c[lc]}
+            li
+              p.li_about #{data.main4.d[lc]}
+            li
+              p.li_about #{data.main4.e[lc]}
+            li
+              p.li_about #{data.main4.f[lc]}
+            li
+              p.li_about #{data.main4.g[lc]}
+      .row
+        .col-md-12
+          p.text-center.p_tryfree
+            a(href='/form')
+              button.btn.btn-primary.btn-lg.btn_tryfree
+                span.span_tryfree #{data.main5[lc]}
+    #advantage
+      .container
+        .row
+          .col-md-12
+            h1.text-center #{data.nav3[lc]}
+        .row
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/exclusive3.png')
+            .row
+              .col-md-12
+                p.p_advantage.p_exclusive #{data.advantage1[lc]}
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/competitor.png')
+            .row
+              .col-md-12
+                p.p_advantage #{data.advantage2[lc]}
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/partner.png')
+            .row
+              .col-md-12
+                p.p_advantage #{data.advantage3[lc]}
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/cloud3.png')
+            .row
+              .col-md-12
+                p.p_advantage #{data.advantage4[lc]}
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/growth3.png')
+            .row
+              .col-md-12
+                p.p_advantage #{data.advantage5[lc]}
+          .col-md-2.text-center.advantage_col_md_2
+            img.img-circle(src='img/price3.png')
+            .row
+              .col-md-12
+                p.p_advantage #{data.advantage6[lc]}
+    #review.container
+      h1.text-center #{data.nav4[lc]}
+      .row
+        .col-md-12
+          .row
+            .col-md-2.col_review
+              img.img-circle.img-responsive.center-block(src='img/foto1.jpg')
+            .col-md-10
+              h2.text-center #{data.review1.a[lc]}
+              blockquote.blockquote
+                p.mb-0
+                  | 
+                  span.span_review #{data.review1.b[lc]} 
+                  | #{data.review1.c[lc]} 
+                  br
+                  a.a_review_more  #{data.review3[lc]} 
+                  | 
+                  span.span_review_toggle
+                    span.span_review #{data.review1.d[lc]}  
+                    | #{data.review1.e[lc]} 
+                footer.blockquote-footer
+                  | #{data.review1.f[lc]} 
+                br
+                button.btn.button_review_hide #{data.review4[lc]}
+      .row
+        .col-md-12
+          .row
+            .col-md-2.col_review
+              img.img-circle.img-responsive.center-block(src='img/foto2.jpg')
+            .col-md-10
+              h2.text-center #{data.review2.a[lc]}
+              blockquote.blockquote
+                p.mb-0
+                  | 
+                  span.span_review #{data.review2.b[lc]} 
+                  | #{data.review2.c[lc]} 
+                  br
+                  span.span_review #{data.review2.d[lc]} 
+                  | #{data.review2.e[lc]}
+                  br
+                  span.span_review #{data.review2.f[lc]} 
+                  | #{data.review2.g[lc]}
+                  br
+                  a.a_review_more  #{data.review3[lc]} 
+                  | 
+                  span.span_review_toggle
+                    span.span_review #{data.review2.h[lc]}  
+                    | #{data.review2.k[lc]}
+                    br
+                    span.span_review #{data.review2.l[lc]}  
+                    | #{data.review2.m[lc]}
+                footer.blockquote-footer
+                  | #{data.review2.n[lc]}
+                br
+                button.btn.button_review_hide #{data.review4[lc]}
+    #price
+      .container
+        h1.text-center #{data.nav5[lc]}
+        p.text-center.p_price
+          | #{data.price1[lc]}
+        p.text-center.p_price
+          | #{data.price2[lc]}
+        p.text-center.p_tryfree
+          a(href='/form')
+            button.btn.btn-primary.btn-lg.btn_tryfree
+              span.span_tryfree #{data.main5[lc]}
+    a.a_investor(href='/investor')
+      button.btn.btn-primary.btn-lg #{data.investor[lc]}
+    .footer
+      .row
+        .col-md-12
+          p.p_footer2.text-center © 2017 Monitr #{data.footer[lc]}
+    script(type='text/javascript', src='index.js')

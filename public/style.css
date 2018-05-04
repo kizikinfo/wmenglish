@@ -1,0 +1,146 @@
+#maintext{
+	font-size: 60px;
+	line-height: 70px;
+	font-family: Pacifico, Georga, Serif;
+}
+
+#mainimg{
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.col-md-4{
+	padding-top: 40px;
+}
+
+#main, #advantage, #price{
+	background-color: #FAFAFA;
+}
+
+#about, #advantage, #review, #price{
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+#main{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+
+h1{
+	padding-bottom: 80px;
+	font-family: Comfortaa, Georga, Serif;
+	font-weight: bold;
+}
+
+ul {
+    list-style-image: url('img/tick1.png');
+}
+
+.about_col_md_5{
+	padding-top: 30px;
+}
+
+.li_about{
+	font-size: 20px;
+	font-family: Comfortaa, Georga, Serif;
+}
+
+.p_advantage{
+	font-size: 18px;
+	font-family: Comfortaa, Georga, Serif;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.p_exclusive{
+	font-family: Comfortaa, Georga, Serif;
+	--line-height: 20px;
+}
+
+.advantage_col_md_2{
+	padding-top: 20px;
+}
+
+.span_review{
+	padding-left: 20px;
+}
+
+.span_review_toggle, .button_review_hide{
+	display: none;
+}
+
+.col_review{
+	padding-top: 60px;
+}
+
+.p_price{
+	font-size: 20px;
+	font-family: Comfortaa, Georga, Serif;
+}
+
+.p_tryfree{
+	padding-top: 120px;
+}
+
+.span_tryfree{
+	--font-size: 20px;
+	font-family: Comfortaa, Georga, Serif;
+	--font-weight: bold;
+}
+
+.footer{
+	background-color: black;
+	height: 80px;
+}
+
+.p_footer1{
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: grey;
+}
+
+.p_footer2{
+	padding-top: 30px;
+	color: grey;
+}
+
+.a_investor{
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.div_form, .div_success{
+	padding-top: 120px;
+}
+
+.div_investor{
+	background-image: url('img/investor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	--border: 1px solid red;
+	height: 100%;
+}
+
+.div_investor_text{
+	padding-top: 80px;
+}
+
+.p_investor{
+	--font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .div_investor {
+        height: auto;
+    }
+}
+
+
+

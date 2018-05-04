@@ -1,0 +1,62 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+              .container-fluid
+                .navbar-header
+                  button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.navbar-brand(href='/') Monitr
+                #myNavbar.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                    li.active
+                      a(href='/') #{data.nav1[lc]}
+    .container
+      .row.div_form
+        .col-md-6
+          form(action="/data", method="post")
+            .form-row
+              .form-group
+                label(for='form_name') #{data.form1[lc]}
+                input#form_name.form-control(type='text', name="f_name", required)
+            .form-row
+              .form-group
+                label(for='form_email') Email
+                input#form_email.form-control(type='email', placeholder='Email', name="f_email", required)
+            .form-row
+              .form-group
+                label(for='form_city') #{data.form2[lc]}
+                - var city_placeholder=data.form3[lc]
+                input#form_city.form-control(type='text', placeholder=city_placeholder, name="f_city", required)
+            .form-row
+              .form-group
+                label(for='form_messenger') #{data.form4[lc]}
+                select#form_messenger.form-control(name="f_messenger", onchange="selectchanged()", required)
+                  option(disabled, selected, value='', hidden) #{data.form5[lc]}
+                  option Whatsapp
+                  option Telegram
+                  option Viber
+                  option Skype
+                  option #{data.form6[lc]}
+                  .form-row
+            #drmes.form-row
+              .form-group
+                label(for='form_othermessenger') #{data.form7[lc]}
+                input#form_othermessenger.form-control(type='text')
+            #nommes.form-row
+              .form-group
+                label(for='form_messengernumber') #{data.form8[lc]}
+                input#form_messengernumber.form-control(type='number', name="f_messengernumber", required)
+            #skid.form-row
+              .form-group
+                label(for='form_skid') Skype ID
+                input#form_skid.form-control(type='text', name='f_skid')
+            .row
+              .col-xs-3.col-md-3
+                a(href='/')
+                  button.btn.btn-primary(type='button') #{data.form9[lc]} 
+              .col-xs-3.col-md-3
+                button.btn.btn-primary.form-(type='submit') #{data.form10[lc]}
+    script(type='text/javascript', src='form.js')

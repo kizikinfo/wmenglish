@@ -1,0 +1,268 @@
+{
+	"nav1": [
+		"Главное",
+		"Main"
+	],
+	"nav2": [
+		"Как это работает",
+		"How it works"
+	],
+	"nav3": [
+		"Преимущества",
+		"Advantages"
+	],
+	"nav4": [
+		"Отзывы",
+		"Review"
+	],
+	"nav5": [
+		"Стоимость",
+		"Price"
+	],
+	"main1": [
+		"img/img_main_ru.png",
+		"img/img_main_en.png"
+	],
+	"main2": [
+		"Все горячие объявления у Вас на телефоне!",
+		"All hot items in your mobile phone!"
+	],
+	"main3": [
+		"video/video_ru.mp4",
+		"video/video_en.mp4"
+	],
+	"main4": {
+		"a": [
+			"предназначена для агенств по недвижимости и предпринимателей",
+			"intended for enterpreneurs and real estate agencies"
+		],
+		"b": [
+			"мониторит недвижимости по цене, району, типу и многим другим параметрам",
+			"monitors real estates by price, area, type and many other parameters"
+		],
+		"c": [
+			"мониторит автомобили по цене, модели, марке, году выпуска и др.",
+			"monitors cars by price, model, mark, year of manufacture etc."
+		],
+		"d": [
+			"мониторит аукционы по цене, типу, дате и др.",
+			"monitors auctions by price, type, date, etc."
+		],
+		"e": [
+			"можно поставить на любой веб ресурс",
+			"monitors everything on the web ( imagination is the limit )"
+		],
+		"f": [
+			"работает в режиме 24/7",
+			"works in 24/7 regime"
+		],
+		"g": [
+			"отправляет на телефон как только событие по заданным параметрам наступает",
+			"sends to mobile phone as soon as suitable case has happened as per the criteria"
+		]
+	},
+	"main5": [
+		"Попробовать бесплатно",
+		"Try for free"
+	],
+	"advantage1": [
+		"Единственный пользователь по городу",
+		"Single user by city"
+	],
+	"advantage2": [
+		"Опережение конкурентов",
+		"Advancing competitors"
+	],
+	"advantage3": [
+		"Единственный представитель по городу с правом перепродажи",
+		"The only representative of the city with the right to resale"
+	],
+	"advantage4": [
+		"Облачный сервис и техподдержка",
+		"Cloud service and technical support"
+	],
+	"advantage5": [
+		"Мощный эффект для роста бизнеса",
+		"A powerful effect for business growth"
+	],
+	"advantage6": [
+		"Гибкая стоимость",
+		"Flexible price"
+	],
+	"review1": {
+		"a": [
+			"Константин Артамонов",
+			"Konstantin Artamonov"
+		],
+		"b": [
+			"Я",
+			"I"
+		],
+		"c": [
+			"профессионально занимаюсь продажей авто более 10 лет. Известно, что на сегодняшний день в основном продажа авто происходит через специализированные сайты в сети интернет. Выборка имеющихся объявлений, их просмотр, анализ занимают неоправданно большое количество времени и отнимает много сил. От скорости реакции на новое объявление напрямую зависит количество заключаемых  сделок, и, соответственно, получаемый доход.",
+			"am a professional in car selling business with more than 10 years of experience. It is known that nowadays selling cars mostly implemented through websites. Searching the right item, detailed look, analyzing the information takes too much time and effort. The number of deals directly depends on the speed of the reaction to newly added advertisements as a result the income will be affected."
+		],
+		"d": [
+			"Познакомившись",
+			"After"
+		],
+		"e": [
+			"с программой monitr, покупка авто стала намного проще, легче и быстрее. Преимущество использования программы прежде всего в том, что я не  только одним из первых вижу опубликованные на сайте объявления, но также осуществляется выборка автомобилей по интересующим меня параметрам (марке, году выпуска, цене и т.п.). То есть если на сайте публикуется новое объявление о продаже автомобиля по выгодной для меня цене, я могу одним из первых связаться с продавцом, уточнить детали, договориться о встрече, заключить сделку на наиболее выгодных условиях. Мне не нужно тратить огромное количество времени и сил для того, чтобы постоянно самому просматривать объявления. Одна выгодная покупка автомобиля вполне способна оправдать годовую оплату программы. В результате мои доходы увеличились без потерь дополнительного времени и сил.",
+			"getting acquainted with the program 'monitr' buying a car has become simpler, easier and faster. The advantage of using it is that I am not only one of the first to see published advertisement on the site but also it is possible to make selection by the parameters in my interest (mark, year of manufacture, price etc.). That is if on the website the new advertisement of car is published by the price in my interest I am notified operatively and one of the first contact with seller, get more detailed info, set the meeting and at the end make a deal on the best terms. I don't have to spend huge amount of time and effort for searching advertisements. One successfull purchase can justify the annual payment of the program. As a result my income has rised without any additional time and effort."
+		],
+		"f": [
+			"Предприниматель, специалист по продажам автомобилей",
+			"Enterpreneur, specialist in car selling business"
+		]
+	},
+	"review2": {
+		"a": [
+			"Олеся Парфёнова",
+			"Olesya Parfenova"
+		],
+		"b": [
+			"Начала",
+			"I"
+		],
+		"c": [
+			"пользоваться программой относительно недавно. Даже за такой короткий промежуток времени я уже почувствовала способности программы.",
+			"am a professional in car selling business with more than 10 years of experience. It is known that nowadays selling cars mostly implemented through websites. Searching the right item, detailed look, analyzing the information takes too much time and effort. The number of deals directly depends on the speed of the reaction to newly added advertisements as a result the income will be affected."
+		],
+		"d": [
+			"Во превых,",
+			"Firstly,"
+		],
+		"e": [			
+			"это очень удобно когда нету необходимости посещать вебресурсы вручную и тратить свое драгоценное время так как Monitr делает это из за меня.",
+			"it is very convinient when there is no need manually search websites and spend your precious time as the 'monitr' does it for me."
+		],
+		"f": [
+			"Во вторых,",
+			"Secondly,"
+		],
+		"g": [
+			"я бы сказала самая важная деталь в нашем бизнесе это успеть захватить горячие варианты как можно скорее и в этом деле Monitr как раз в точку так как оперативное уведомление является основой программы.",
+			"I would say the main thing in our business is to catch hot items as soon as possible and in this case 'monitr' just in time since prompt notification is the basis of the program."
+		],
+		"h": [
+			"В третьих,",
+			"Thirdly,"
+		],
+		"k": [
+			"один из факторов который я согласилась воспользоваться это - эксклюзивность и уникальность программы. То есть именно по той географической территорий которая я выбрала я могу быть уверена что я уникальна. Все варианты под мой фильтр оперативно будут поступать мне на телефон с помощью программы тогда как мои конкуренты делают поиск вручную теряя драгоценное время.",
+			"one of the factors I decided to use is - exlusiveness and uniqueness of the program. Namely, at specific geographical territory which I had chosen I can be sure that I am a unique user. All advertisements filtered by parameters I am interested in will be delivered to my phone with the help of the program when at the same time my competitors do the search manually by wasting their time."
+		],
+		"l": [
+			"C",
+			"From"
+		],
+		"m": [
+			"самого начала программа показывает себя с лучшей стороны и очень надеюсь на долгосрочное, полодотворное сотрудничество.",
+			"the very beginning the program shows itself from the best side and I do hope for long-term, promising cooperation."
+		],
+		"n": [
+			"Специалсит по недвижимостям",
+			"Real estate specialist"
+		]
+	},
+	"review3": [
+		"Читать полностью...",
+		"Read more..."
+	],
+	"review4": [
+		"Скрыть",
+		"Less"
+	],
+	"price1": [
+		"Так как стоимость сервиса варьируется в зависимости от города.",
+		"Since price varies depending on the task and location it is set individually with each user."
+	],
+	"price2": [
+		"Для удостоверения работоспособности сервиса его можно совершенно бесплатно опробывать в течений 5-ти дней.",
+		"For making sure of the functionality of the service it is possible to try it for free for 5 days."
+	],
+	"investor": [
+		"Для инвесторов",
+		"For investors"
+	],
+	"footer": [
+		"Все права защищены.",
+		"All rights reserved."
+	],
+	"form1": [
+		"Имя",
+		"Name"
+	],
+	"form2": [
+		"Город",
+		"City"
+	],
+	"form3": [
+		"Введите город для мониторинга",
+		"Enter name of the city for monitoring"
+	],
+	"form4": [
+		"Мессенджер (для обратной связи)",
+		"Messenger (for contact)"
+	],
+	"form5": [
+		"Выберите из списка",
+		"Choose from the list"
+	],
+	"form6": [
+		"Другой",
+		"Other"
+	],
+	"form7": [
+		"Другой мессенджер",
+		"Other messenger"
+	],
+	"form8": [
+		"Номер мессенджера",
+		"Number of messenger"
+	],
+	"form9": [
+		"Назад",
+		"Back"
+	],
+	"form10": [
+		"Отправить",
+		"Send"
+	],
+	"form11": [
+		"Что бы Вы хотели сказать",
+		"What would you like to say"
+	],
+	"inv1": [
+		"был создан по требованию рынка недвижимости. Несмотря на другие сервисы в этой же сфере у monitr есть свои отличия.",
+		"was created as per the demand of the market of properties. Even though there are other services on the same field but still monitr has some differences."
+	],
+	"inv2": [
+		"Во первых, он очень гибок, то есть мутируется по потребности клиента. Например, если клиент хочет наблюдать несколько топовых веб ресурсов вместо тысячи ненужных то это работа для monitr. А также многие агрегаторы веб ресурсов работают с большой базой данных когда как monitr работает на стороне веб ресурса.",
+		"First of all it is very flexible which means it can be mutated as per the client need. For example if client needs to monitor several top, high-ranked websites instead of thousands of unnecessary resources then it is a job for monitr. Also many web resource aggregators work with big database, whereas monitr works on the side of actual web resource (client side)."
+	],
+	"inv3": [
+		"Во вторых, вместо того чтобы быть бесплатным, массовым как другие сервисы, monitr стремится персонально, эксклюзивно подходить к каждому предпринимателю, компанию, инвестору чтобы установить долгосрочное отношение и в конце концов стать орудием для роста его бизнеса. Более того, учитывая что другие сервисы плохо развиты или вообще отсутствуют в некоторых странах а monitr может обрабатывать веб ресурс каждой страны персонально, то очевидно что у него есть большой потенциал для быстрого роста.",
+		"Secondly instead of being cheap, free or massive like other services monitr aims to treat every company, enterpreneur, investor personally, exlusively and set long-term cooperation as a result become a right tool for their business growth. Moreover if to mention that other services haven't been developed very well or missing in some countries and monitr can process the web resource of each country personally it is obvious that it has high potential to grow rapidly."
+	],
+	"inv4": [
+		"Несмотря на то что сервис был создан недавно он сразу же стал прибыльным проектом без дополнительной рабочей силы, маркетинга и т.д. Очевидно что он будет расти постепенно с минимальной поддержкой. Но как любой другой стартап он нуждается в быстром росте, охвате своей ниши, расширений чтобы стать ценной, солидной компанией.",
+		"Even though it was born recently it became a profitable project stright away without any effort on marketing, work force etc. For sure it will grow with minimum of support gradually. But like any other startup it needs to grow rapidly, capture its niche in business as soon as possible, spread wider consequently become valuable and solid company."
+	],
+	"inv5": [
+		"Если Вы хотите принимать участие в раннем этапе развития компаний можете связаться нажатием кнопки ниже.",
+		"If you want to take part at the early stage of the company development you can contact by clicking the button below."
+	],
+	"inv6": [
+		"В дополнение, проект очень гибок и готов открыть оффис в любом городе мира так как использует облачную технологию.",
+		"In addition the project is very flexible and ready to be headquartered in any city of the world as it works using cloud technology."
+	],
+	"inv7": [
+		"Связаться",
+		"Get in touch"
+	],
+	"success": [
+		"Спасибо большое за запрос! Мы объязательно свяжемся с Вами в ближайшее время!",
+		"Thank you for request! You will be contacted shortly!"
+	]
+}

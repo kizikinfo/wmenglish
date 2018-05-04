@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+              .container-fluid
+                .navbar-header
+                  button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.navbar-brand(href='/') Monitr
+                #myNavbar.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                    li.active
+                      a(href='/') #{data.nav1[lc]}
+    .container
+      .row.div_success
+        .col-md-offset-2.col-md-8
+          h4 #{data.success[lc]}
+          br
+          br
+          a(href='/')
+            button.btn.btn-primary #{data.form9[lc]}

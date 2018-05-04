@@ -1,0 +1,38 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+              .container-fluid
+                .navbar-header
+                  button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.navbar-brand(href='/') Monitr
+                #myNavbar.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                    li.active
+                      a(href='/') #{data.nav1[lc]}
+    .container
+      .row.div_form
+        .col-md-6
+          form(action="/datainvestor", method="post")
+            .form-row
+              .form-group
+                label(for='form_name_investor') #{data.form1[lc]}
+                input#form_name_investor.form-control(type='text', name="f_name_investor", required)
+            .form-row
+              .form-group
+                label(for='form_email_investor') Email
+                input#form_email_investor.form-control(type='email', placeholder='Email', name="f_email_investor", required)
+            .form-row
+              .form-group
+                - var textarea_placeholder=data.form11[lc]
+                textarea#form_comment_investor.form-control(rows='5', placeholder=textarea_placeholder, name="f_comment_investor", required)
+            .row
+              .col-xs-3.col-md-3
+                a(href='/investor')
+                  button.btn.btn-primary(type='button') #{data.form9[lc]} 
+              .col-xs-3.col-md-3
+                button.btn.btn-primary.form-(type='submit') #{data.form10[lc]}
+    script(type='text/javascript', src='form.js')
